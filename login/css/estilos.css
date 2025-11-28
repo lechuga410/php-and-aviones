@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: end;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #279eff;
+    background: linear-gradient(to right, black, white);
+    height: 100vh;
+    overflow-y: auto;
+    font-size: 16px;
+}
+.formulario{
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    padding: 20px;
+    min-height: 600px; /* se adapta mejor */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    min-height: 600px;
+    background: rgba(255, 255, 255, 0.2); /* blanco con 20% opacidad */
+    backdrop-filter: blur(10px); /* efecto cristal (glassmorphism) */
+    border-radius: 10px;
+    width: 290px; /* ancho del formulario */
+    margin-bottom: 10px;
+    padding: 20px;
+    min-height: 600px;
+    background: none; /* igual que transparent */
+    border: 1px solid #fff; /* borde blanco para que resalte */
+}
+input{
+    margin-bottom: 50px;
+}
+.formulario input {
+    width: auto;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3); 
+    color: #000;
+    font-size: 16px;
+
+    outline: none;
+    transition: 0.3s ease;
+    backdrop-filter: blur(5px); 
+}
+/* Efecto al pasar el mouse */
+.formulario input:hover {
+    background: rgba(255, 255, 255, 0.45);
+} 
+/* Efecto al escribir */
+.formulario input:focus {
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+}
+.submit-btn {
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.35);
+    color: black;
+    transition: 0.3s;
+    backdrop-filter: blur(6px);
+}
+/* Hover */
+.submit-btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(1.1);
+}
+/* Al hacer clic */
+.submit-btn:active {
+    transform: scale(0.95);
+}
+.submit-btn {
+    position: relative;
+    left: 18px;   /* mueve la flecha a la derecha */
+    top: -1px;   /* mueve la flecha hacia arriba */
+}
