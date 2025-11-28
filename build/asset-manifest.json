@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0de668a.css",
+    "main.js": "/static/js/main.845984ad.js",
+    "static/js/453.0490e1b0.chunk.js": "/static/js/453.0490e1b0.chunk.js",
+    "static/media/boeing_787_dreamliner_2_img.jfif": "/static/media/boeing_787_dreamliner_2_img.50b12be64a162fbe4f85.jfif",
+    "static/media/airbus_A320.jfif": "/static/media/airbus_A320.efb90ec804ec959cfdad.jfif",
+    "static/media/boeing_787_dreamliner.jfif": "/static/media/boeing_787_dreamliner.537fdaf2bc7665f5011d.jfif",
+    "static/media/boeing_747.jfif": "/static/media/boeing_747.ddf240f1859e82d5b3c4.jfif",
+    "index.html": "/index.html",
+    "main.a0de668a.css.map": "/static/css/main.a0de668a.css.map",
+    "main.845984ad.js.map": "/static/js/main.845984ad.js.map",
+    "453.0490e1b0.chunk.js.map": "/static/js/453.0490e1b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0de668a.css",
+    "static/js/main.845984ad.js"
+  ]
+}
